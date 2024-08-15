@@ -71,13 +71,13 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.newGameToolStripMenuItem.Text = "New Game";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -93,7 +93,7 @@
             // aboutToolStripMenuItem1
             // 
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(217, 26);
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(132, 26);
             this.aboutToolStripMenuItem1.Text = "About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
@@ -174,9 +174,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(482, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 40);
+            this.label1.Size = new System.Drawing.Size(92, 40);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Tic Tac Toe\r\n\r\n";
+            this.label1.Text = "Twin Tac Toe\r\n\r\n";
             // 
             // Form1
             // 
