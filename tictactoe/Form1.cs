@@ -51,23 +51,29 @@ namespace tictactoe
             bool a_winner = false;
 
             //horizontal
-            if ((b1.Text == b2.Text)&&(b2.Text == b3.Text));
+            if ((b1.Text == b2.Text) && (b2.Text == b3.Text) && (!b1.Enabled))
             a_winner = true;
+            else if ((b4.Text == b5.Text) && (b5.Text == b6.Text) && (!b4.Enabled))
+                a_winner = true;
+            else if ((b7.Text == b8.Text) && (b8.Text == b9.Text) && (!b7.Enabled))
+                a_winner = true;
+            else if ((b10.Text == b11.Text) && (b11.Text == b12.Text) && (!b10.Enabled))
+                a_winner = true;
+            else if ((b13.Text == b14.Text) && (b14.Text == b15.Text) && (!b13.Enabled))
+                a_winner = true;
+            else if ((b16.Text == b17.Text) && (b17.Text == b18.Text) && (!b16.Enabled))
+                a_winner = true;
 
-            if ((b4.Text == b5.Text) && (b5.Text == b6.Text)) ;
-            a_winner = true;
+            if(a_winner)
+            {
+                String winner = "";
+                if(turn)
+                    winner = "O";
+                else
+                    winner = "X" ;
 
-            if ((b7.Text == b8.Text) && (b8.Text == b9.Text)) ;
-            a_winner = true;
-
-            if ((b10.Text == b11.Text) && (b11.Text == b12.Text)) ;
-            a_winner = true;
-
-            if ((b13.Text == b14.Text) && (b14.Text == b15.Text)) ;
-            a_winner = true;
-
-            if ((b16.Text == b17.Text) && (b17.Text == b18.Text)) ;
-            a_winner = true;
+                MessageBox.Show(winner + "Wins!", "Winner");
+            }
         }
 
         private void label1_Click_1(object sender, EventArgs e)
