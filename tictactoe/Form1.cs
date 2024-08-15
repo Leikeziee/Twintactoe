@@ -41,6 +41,7 @@ namespace tictactoe
                 b.Text = "O";
 
             turn = !turn;
+            b.Enabled = false;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
