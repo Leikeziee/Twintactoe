@@ -183,9 +183,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(482, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 40);
+            this.label1.Size = new System.Drawing.Size(81, 40);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Twin Tac Toe\r\n\r\n";
+            this.label1.Text = "Tic Tac Toe\r\n\r\n";
             // 
             // Form1
             // 

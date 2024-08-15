@@ -31,22 +31,10 @@ namespace tictactoe
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Button b = (Button)sender;
-            if (turn)
-                b.Text = "X";
-            else
-                b.Text = "O";
-
-            turn = !turn;
-        }
-
+        }        
         private void button_Click(object sender, EventArgs e)
         {
-            Button b = (Button)sender;
+                      Button b = (Button)sender;
             if (turn)
                 b.Text = "X";
             else
