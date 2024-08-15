@@ -25,7 +25,7 @@ namespace tictactoe
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Computer Software Design - Tic Tac Toe Project by Lactao & Muldera");
+            MessageBox.Show("Computer Software Design - Tic Tac Toe Project by Lactao & Mulderaa");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
