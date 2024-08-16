@@ -53,6 +53,12 @@
             this.b10 = new System.Windows.Forms.Button();
             this.b11 = new System.Windows.Forms.Button();
             this.b12 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.x_win_count = new System.Windows.Forms.Label();
+            this.draw_count = new System.Windows.Forms.Label();
+            this.o_win_count = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,6 +88,7 @@
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
             this.newGameToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.newGameToolStripMenuItem.Text = "New Game";
+            this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -114,6 +121,8 @@
             this.b3.TabIndex = 1;
             this.b3.UseVisualStyleBackColor = true;
             this.b3.Click += new System.EventHandler(this.button_Click);
+            this.b3.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b3.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b2
             // 
@@ -123,6 +132,8 @@
             this.b2.TabIndex = 2;
             this.b2.UseVisualStyleBackColor = true;
             this.b2.Click += new System.EventHandler(this.button_Click);
+            this.b2.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b2.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b1
             // 
@@ -132,6 +143,8 @@
             this.b1.TabIndex = 3;
             this.b1.UseVisualStyleBackColor = true;
             this.b1.Click += new System.EventHandler(this.button_Click);
+            this.b1.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b1.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b6
             // 
@@ -141,6 +154,8 @@
             this.b6.TabIndex = 6;
             this.b6.UseVisualStyleBackColor = true;
             this.b6.Click += new System.EventHandler(this.button_Click);
+            this.b6.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b6.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b5
             // 
@@ -150,6 +165,8 @@
             this.b5.TabIndex = 5;
             this.b5.UseVisualStyleBackColor = true;
             this.b5.Click += new System.EventHandler(this.button_Click);
+            this.b5.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b5.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b4
             // 
@@ -159,6 +176,8 @@
             this.b4.TabIndex = 4;
             this.b4.UseVisualStyleBackColor = true;
             this.b4.Click += new System.EventHandler(this.button_Click);
+            this.b4.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b4.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b9
             // 
@@ -168,6 +187,8 @@
             this.b9.TabIndex = 9;
             this.b9.UseVisualStyleBackColor = true;
             this.b9.Click += new System.EventHandler(this.button_Click);
+            this.b9.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b9.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b8
             // 
@@ -177,6 +198,8 @@
             this.b8.TabIndex = 8;
             this.b8.UseVisualStyleBackColor = true;
             this.b8.Click += new System.EventHandler(this.button_Click);
+            this.b8.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b8.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b7
             // 
@@ -186,13 +209,16 @@
             this.b7.TabIndex = 7;
             this.b7.UseVisualStyleBackColor = true;
             this.b7.Click += new System.EventHandler(this.button_Click);
+            this.b7.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b7.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(469, 60);
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 13.77391F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(437, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 40);
+            this.label1.Size = new System.Drawing.Size(159, 56);
             this.label1.TabIndex = 10;
             this.label1.Text = "Twin Tac Toe\r\n\r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -205,6 +231,8 @@
             this.b18.TabIndex = 19;
             this.b18.UseVisualStyleBackColor = true;
             this.b18.Click += new System.EventHandler(this.button_Click);
+            this.b18.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b18.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b17
             // 
@@ -214,6 +242,8 @@
             this.b17.TabIndex = 18;
             this.b17.UseVisualStyleBackColor = true;
             this.b17.Click += new System.EventHandler(this.button_Click);
+            this.b17.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b17.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b16
             // 
@@ -223,6 +253,8 @@
             this.b16.TabIndex = 17;
             this.b16.UseVisualStyleBackColor = true;
             this.b16.Click += new System.EventHandler(this.button_Click);
+            this.b16.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b16.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b15
             // 
@@ -232,6 +264,8 @@
             this.b15.TabIndex = 16;
             this.b15.UseVisualStyleBackColor = true;
             this.b15.Click += new System.EventHandler(this.button_Click);
+            this.b15.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b15.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b14
             // 
@@ -241,6 +275,8 @@
             this.b14.TabIndex = 15;
             this.b14.UseVisualStyleBackColor = true;
             this.b14.Click += new System.EventHandler(this.button_Click);
+            this.b14.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b14.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b13
             // 
@@ -250,6 +286,8 @@
             this.b13.TabIndex = 14;
             this.b13.UseVisualStyleBackColor = true;
             this.b13.Click += new System.EventHandler(this.button_Click);
+            this.b13.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b13.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b10
             // 
@@ -259,6 +297,8 @@
             this.b10.TabIndex = 13;
             this.b10.UseVisualStyleBackColor = true;
             this.b10.Click += new System.EventHandler(this.button_Click);
+            this.b10.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b10.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b11
             // 
@@ -268,6 +308,8 @@
             this.b11.TabIndex = 12;
             this.b11.UseVisualStyleBackColor = true;
             this.b11.Click += new System.EventHandler(this.button_Click);
+            this.b11.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b11.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // b12
             // 
@@ -277,12 +319,78 @@
             this.b12.TabIndex = 11;
             this.b12.UseVisualStyleBackColor = true;
             this.b12.Click += new System.EventHandler(this.button_Click);
+            this.b12.MouseEnter += new System.EventHandler(this.button_enter);
+            this.b12.MouseLeave += new System.EventHandler(this.button_leave);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(464, 155);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(97, 20);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "X Win Count";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(464, 246);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 20);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Draw Count";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(464, 333);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 20);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "O Win Count";
+            // 
+            // x_win_count
+            // 
+            this.x_win_count.AutoSize = true;
+            this.x_win_count.Location = new System.Drawing.Point(501, 185);
+            this.x_win_count.Name = "x_win_count";
+            this.x_win_count.Size = new System.Drawing.Size(17, 20);
+            this.x_win_count.TabIndex = 23;
+            this.x_win_count.Text = "0";
+            this.x_win_count.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // draw_count
+            // 
+            this.draw_count.AutoSize = true;
+            this.draw_count.Location = new System.Drawing.Point(501, 272);
+            this.draw_count.Name = "draw_count";
+            this.draw_count.Size = new System.Drawing.Size(17, 20);
+            this.draw_count.TabIndex = 24;
+            this.draw_count.Text = "0";
+            // 
+            // o_win_count
+            // 
+            this.o_win_count.AutoSize = true;
+            this.o_win_count.Location = new System.Drawing.Point(501, 363);
+            this.o_win_count.Name = "o_win_count";
+            this.o_win_count.Size = new System.Drawing.Size(17, 20);
+            this.o_win_count.TabIndex = 25;
+            this.o_win_count.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 503);
+            this.Controls.Add(this.o_win_count);
+            this.Controls.Add(this.draw_count);
+            this.Controls.Add(this.x_win_count);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.b18);
             this.Controls.Add(this.b17);
             this.Controls.Add(this.b16);
@@ -344,5 +452,11 @@
         private Button b10;
         private Button b11;
         private Button b12;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label x_win_count;
+        private Label draw_count;
+        private Label o_win_count;
     }
 }
