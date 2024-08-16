@@ -66,6 +66,7 @@ namespace tictactoe
 
             if(a_winner)
             {
+                disableButtons();
                 String winner = "";
                 if(turn)
                     winner = "O";
@@ -76,9 +77,24 @@ namespace tictactoe
             }
         }
 
+        private void disableButtons()
+        {
+            foreach(Control c in Controls)
+            {
+                if (c is Button)
+                {
+                    
+                    c.Enabled = false;
+
+                }
+            }
+            
+        }
+
         private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
-    }
+    }   
+
 }
