@@ -103,13 +103,16 @@ namespace tictactoe
                     winner = "X";
                     x_win_count.Text = (Int32.Parse(x_win_count.Text) + 1).ToString();
                 }
-                MessageBox.Show(winner + "Wins!", "Winner");
+                MessageBox.Show(winner + " Wins!", "Winner");
             }
             else
             {
                 if (turn_count == 18)
+                {
+                    draw_count.Text = (Int32.Parse(draw_count.Text) + 1).ToString();
                     MessageBox.Show("It's a Tie", "Draw");
 
+                }
             }
         }
 
@@ -125,11 +128,6 @@ namespace tictactoe
                 }
             }
             
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
@@ -168,9 +166,11 @@ namespace tictactoe
             }
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void resetCountWinsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            o_win_count.Text= "0";
+            x_win_count.Text = "0";
+            draw_count.Text = "0";
         }
     }   
 

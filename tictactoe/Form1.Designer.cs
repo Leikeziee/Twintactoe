@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetCountWinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,6 +79,7 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newGameToolStripMenuItem,
+            this.resetCountWinsToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
@@ -86,14 +88,21 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.newGameToolStripMenuItem.Text = "New Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
+            // 
+            // resetCountWinsToolStripMenuItem
+            // 
+            this.resetCountWinsToolStripMenuItem.Name = "resetCountWinsToolStripMenuItem";
+            this.resetCountWinsToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.resetCountWinsToolStripMenuItem.Text = "Reset Win Count";
+            this.resetCountWinsToolStripMenuItem.Click += new System.EventHandler(this.resetCountWinsToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -115,6 +124,7 @@
             // 
             // b3
             // 
+            this.b3.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b3.Location = new System.Drawing.Point(284, 51);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(120, 111);
@@ -126,6 +136,7 @@
             // 
             // b2
             // 
+            this.b2.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b2.Location = new System.Drawing.Point(158, 51);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(120, 111);
@@ -137,6 +148,7 @@
             // 
             // b1
             // 
+            this.b1.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b1.Location = new System.Drawing.Point(32, 51);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(120, 111);
@@ -148,6 +160,7 @@
             // 
             // b6
             // 
+            this.b6.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b6.Location = new System.Drawing.Point(284, 168);
             this.b6.Name = "b6";
             this.b6.Size = new System.Drawing.Size(120, 111);
@@ -159,6 +172,7 @@
             // 
             // b5
             // 
+            this.b5.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b5.Location = new System.Drawing.Point(158, 168);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(120, 111);
@@ -170,6 +184,7 @@
             // 
             // b4
             // 
+            this.b4.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b4.Location = new System.Drawing.Point(32, 168);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(120, 111);
@@ -181,6 +196,7 @@
             // 
             // b9
             // 
+            this.b9.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b9.Location = new System.Drawing.Point(284, 285);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(120, 111);
@@ -192,6 +208,7 @@
             // 
             // b8
             // 
+            this.b8.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b8.Location = new System.Drawing.Point(158, 285);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(120, 111);
@@ -203,6 +220,7 @@
             // 
             // b7
             // 
+            this.b7.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b7.Location = new System.Drawing.Point(32, 285);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(120, 111);
@@ -221,10 +239,10 @@
             this.label1.Size = new System.Drawing.Size(159, 56);
             this.label1.TabIndex = 10;
             this.label1.Text = "Twin Tac Toe\r\n\r\n";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // b18
             // 
+            this.b18.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b18.Location = new System.Drawing.Point(874, 285);
             this.b18.Name = "b18";
             this.b18.Size = new System.Drawing.Size(120, 111);
@@ -236,6 +254,7 @@
             // 
             // b17
             // 
+            this.b17.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b17.Location = new System.Drawing.Point(748, 285);
             this.b17.Name = "b17";
             this.b17.Size = new System.Drawing.Size(120, 111);
@@ -247,6 +266,7 @@
             // 
             // b16
             // 
+            this.b16.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b16.Location = new System.Drawing.Point(622, 285);
             this.b16.Name = "b16";
             this.b16.Size = new System.Drawing.Size(120, 111);
@@ -258,6 +278,7 @@
             // 
             // b15
             // 
+            this.b15.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b15.Location = new System.Drawing.Point(874, 168);
             this.b15.Name = "b15";
             this.b15.Size = new System.Drawing.Size(120, 111);
@@ -269,6 +290,7 @@
             // 
             // b14
             // 
+            this.b14.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b14.Location = new System.Drawing.Point(748, 168);
             this.b14.Name = "b14";
             this.b14.Size = new System.Drawing.Size(120, 111);
@@ -280,6 +302,7 @@
             // 
             // b13
             // 
+            this.b13.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b13.Location = new System.Drawing.Point(622, 168);
             this.b13.Name = "b13";
             this.b13.Size = new System.Drawing.Size(120, 111);
@@ -291,6 +314,7 @@
             // 
             // b10
             // 
+            this.b10.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b10.Location = new System.Drawing.Point(622, 51);
             this.b10.Name = "b10";
             this.b10.Size = new System.Drawing.Size(120, 111);
@@ -302,6 +326,7 @@
             // 
             // b11
             // 
+            this.b11.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b11.Location = new System.Drawing.Point(748, 51);
             this.b11.Name = "b11";
             this.b11.Size = new System.Drawing.Size(120, 111);
@@ -313,6 +338,7 @@
             // 
             // b12
             // 
+            this.b12.Font = new System.Drawing.Font("Segoe UI", 28.17391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b12.Location = new System.Drawing.Point(874, 51);
             this.b12.Name = "b12";
             this.b12.Size = new System.Drawing.Size(120, 111);
@@ -360,7 +386,6 @@
             this.x_win_count.Size = new System.Drawing.Size(17, 20);
             this.x_win_count.TabIndex = 23;
             this.x_win_count.Text = "0";
-            this.x_win_count.Click += new System.EventHandler(this.label5_Click);
             // 
             // draw_count
             // 
@@ -384,7 +409,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 503);
+            this.ClientSize = new System.Drawing.Size(1026, 431);
             this.Controls.Add(this.o_win_count);
             this.Controls.Add(this.draw_count);
             this.Controls.Add(this.x_win_count);
@@ -458,5 +483,6 @@
         private Label x_win_count;
         private Label draw_count;
         private Label o_win_count;
+        private ToolStripMenuItem resetCountWinsToolStripMenuItem;
     }
 }
