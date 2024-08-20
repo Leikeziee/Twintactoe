@@ -134,6 +134,46 @@ namespace tictactoe
                     return b9;
             }
 
+            if (b10.Text == "O") //
+            {
+                if (b12.Text == "")
+                    return b12;
+                if (b18.Text == "")
+                    return b18;
+                if (b16.Text == "")
+                    return b16;
+            }
+
+            if (b12.Text == "O") //
+            {
+                if (b10.Text == "")
+                    return b10;
+                if (b18.Text == "")
+                    return b18;
+                if (b16.Text == "")
+                    return b16;
+            }
+
+            if (b18.Text == "O") //
+            {
+                if (b12.Text == "")
+                    return b12;
+                if (b10.Text == "")
+                    return b10;
+                if (b16.Text == "")
+                    return b16;
+            }
+
+            if (b16.Text == "O") //
+            {
+                if (b12.Text == "")
+                    return b12;
+                if (b18.Text == "")
+                    return b18;
+                if (b10.Text == "")
+                    return b10;
+            }
+
             if (b1.Text == "")
                 return b1;
             if (b3.Text == "")
@@ -142,6 +182,14 @@ namespace tictactoe
                 return b7;
             if (b9.Text == "")
                 return b9;
+            if (b10.Text == "")
+                return b10;
+            if (b12.Text == "")
+                return b12;
+            if (b16.Text == "")
+                return b16;
+            if (b18.Text == "")
+                return b18;
 
             return null;
         }
@@ -149,7 +197,7 @@ namespace tictactoe
         private Button look_for_win_or_block(string mark)
         {
             Console.WriteLine("Looking for win or block:  " + mark);
-            //HORIZONTAL TESTS
+            //HORIZONTAL TESTS left 3x3
             if ((b1.Text == mark) && (b2.Text == mark) && (b3.Text == ""))
                 return b3;
             if ((b2.Text == mark) && (b3.Text == mark) && (b1.Text == ""))
@@ -171,7 +219,29 @@ namespace tictactoe
             if ((b7.Text == mark) && (b9.Text == mark) && (b8.Text == ""))
                 return b8;
 
-            //VERTICAL TESTS
+            //HORIZONTAL TESTS right 3x3
+            if ((b10.Text == mark) && (b11.Text == mark) && (b12.Text == ""))
+                return b12;
+            if ((b11.Text == mark) && (b12.Text == mark) && (b10.Text == ""))
+                return b10;
+            if ((b10.Text == mark) && (b12.Text == mark) && (b11.Text == ""))
+                return b11;
+
+            if ((b13.Text == mark) && (b14.Text == mark) && (b15.Text == ""))
+                return b15;
+            if ((b14.Text == mark) && (b15.Text == mark) && (b13.Text == ""))
+                return b13;
+            if ((b13.Text == mark) && (b15.Text == mark) && (b14.Text == ""))
+                return b14;
+
+            if ((b16.Text == mark) && (b17.Text == mark) && (b18.Text == ""))
+                return b18;
+            if ((b17.Text == mark) && (b18.Text == mark) && (b16.Text == ""))
+                return b16;
+            if ((b16.Text == mark) && (b18.Text == mark) && (b17.Text == ""))
+                return b17;
+
+            //VERTICAL TESTS left 3x3
             if ((b1.Text == mark) && (b4.Text == mark) && (b7.Text == ""))
                 return b7;
             if ((b4.Text == mark) && (b7.Text == mark) && (b1.Text == ""))
@@ -193,7 +263,29 @@ namespace tictactoe
             if ((b3.Text == mark) && (b9.Text == mark) && (b6.Text == ""))
                 return b6;
 
-            //DIAGONAL TESTS
+            //VERTICAL TESTS right 3x3
+            if ((b10.Text == mark) && (b13.Text == mark) && (b16.Text == ""))
+                return b16;
+            if ((b13.Text == mark) && (b16.Text == mark) && (b10.Text == ""))
+                return b10;
+            if ((b10.Text == mark) && (b16.Text == mark) && (b13.Text == ""))
+                return b13;
+
+            if ((b11.Text == mark) && (b14.Text == mark) && (b17.Text == ""))
+                return b17;
+            if ((b14.Text == mark) && (b17.Text == mark) && (b11.Text == ""))
+                return b11;
+            if ((b11.Text == mark) && (b17.Text == mark) && (b14.Text == ""))
+                return b14;
+
+            if ((b12.Text == mark) && (b15.Text == mark) && (b18.Text == ""))
+                return b18;
+            if ((b15.Text == mark) && (b18.Text == mark) && (b12.Text == ""))
+                return b12;
+            if ((b12.Text == mark) && (b18.Text == mark) && (b15.Text == ""))
+                return b15;
+
+            //DIAGONAL TESTS left 3x3
             if ((b1.Text == mark) && (b5.Text == mark) && (b9.Text == ""))
                 return b9;
             if ((b5.Text == mark) && (b9.Text == mark) && (b1.Text == ""))
@@ -207,6 +299,21 @@ namespace tictactoe
                 return b3;
             if ((b3.Text == mark) && (b7.Text == mark) && (b5.Text == ""))
                 return b5;
+
+            //DIAGONAL TESTS right 3x3
+            if ((b10.Text == mark) && (b14.Text == mark) && (b18.Text == ""))
+                return b18;
+            if ((b14.Text == mark) && (b18.Text == mark) && (b10.Text == ""))
+                return b10;
+            if ((b10.Text == mark) && (b18.Text == mark) && (b14.Text == ""))
+                return b14;
+
+            if ((b12.Text == mark) && (b14.Text == mark) && (b16.Text == ""))
+                return b16;
+            if ((b14.Text == mark) && (b16.Text == mark) && (b12.Text == ""))
+                return b12;
+            if ((b12.Text == mark) && (b16.Text == mark) && (b14.Text == ""))
+                return b14;
 
             return null;
         }
