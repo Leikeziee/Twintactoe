@@ -424,6 +424,7 @@
             this.p2.TabIndex = 27;
             this.p2.Text = "Player O";
             this.p2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.p2.TextChanged += new System.EventHandler(this.p2_TextChanged);
             // 
             // Form1
             // 
