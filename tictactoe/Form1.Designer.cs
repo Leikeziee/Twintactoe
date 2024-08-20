@@ -60,6 +60,8 @@
             this.x_win_count = new System.Windows.Forms.Label();
             this.draw_count = new System.Windows.Forms.Label();
             this.o_win_count = new System.Windows.Forms.Label();
+            this.p1 = new System.Windows.Forms.TextBox();
+            this.p2 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -372,7 +374,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(464, 333);
+            this.label4.Location = new System.Drawing.Point(463, 354);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 20);
             this.label4.TabIndex = 22;
@@ -399,17 +401,37 @@
             // o_win_count
             // 
             this.o_win_count.AutoSize = true;
-            this.o_win_count.Location = new System.Drawing.Point(501, 363);
+            this.o_win_count.Location = new System.Drawing.Point(500, 384);
             this.o_win_count.Name = "o_win_count";
             this.o_win_count.Size = new System.Drawing.Size(17, 20);
             this.o_win_count.TabIndex = 25;
             this.o_win_count.Text = "0";
+            // 
+            // p1
+            // 
+            this.p1.Location = new System.Drawing.Point(452, 126);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(120, 26);
+            this.p1.TabIndex = 26;
+            this.p1.Text = "Player X";
+            this.p1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // p2
+            // 
+            this.p2.Location = new System.Drawing.Point(451, 325);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(120, 26);
+            this.p2.TabIndex = 27;
+            this.p2.Text = "Player O";
+            this.p2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 431);
+            this.Controls.Add(this.p2);
+            this.Controls.Add(this.p1);
             this.Controls.Add(this.o_win_count);
             this.Controls.Add(this.draw_count);
             this.Controls.Add(this.x_win_count);
@@ -442,7 +464,6 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -484,5 +505,7 @@
         private Label draw_count;
         private Label o_win_count;
         private ToolStripMenuItem resetCountWinsToolStripMenuItem;
+        private TextBox p1;
+        private TextBox p2;
     }
 }

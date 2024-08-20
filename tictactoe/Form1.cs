@@ -8,12 +8,6 @@ namespace tictactoe
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -95,12 +89,12 @@ namespace tictactoe
                 String winner = "";
                 if (turn)
                 {
-                    winner = "O";
+                    winner = p2.Text;
                     o_win_count.Text = (Int32.Parse(o_win_count.Text) + 1).ToString();
                 }
                 else
                 {
-                    winner = "X";
+                    winner = p1.Text;
                     x_win_count.Text = (Int32.Parse(x_win_count.Text) + 1).ToString();
                 }
                 MessageBox.Show(winner + " Wins!", "Winner");
