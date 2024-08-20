@@ -236,7 +236,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 13.77391F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(437, 74);
+            this.label1.Location = new System.Drawing.Point(435, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 56);
             this.label1.TabIndex = 10;
@@ -354,7 +354,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(464, 155);
+            this.label2.Location = new System.Drawing.Point(462, 144);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 20);
             this.label2.TabIndex = 20;
@@ -364,7 +364,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(464, 246);
+            this.label3.Location = new System.Drawing.Point(462, 235);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 20);
             this.label3.TabIndex = 21;
@@ -374,7 +374,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.765218F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(463, 354);
+            this.label4.Location = new System.Drawing.Point(461, 343);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 20);
             this.label4.TabIndex = 22;
@@ -383,7 +383,7 @@
             // x_win_count
             // 
             this.x_win_count.AutoSize = true;
-            this.x_win_count.Location = new System.Drawing.Point(501, 185);
+            this.x_win_count.Location = new System.Drawing.Point(499, 174);
             this.x_win_count.Name = "x_win_count";
             this.x_win_count.Size = new System.Drawing.Size(17, 20);
             this.x_win_count.TabIndex = 23;
@@ -392,7 +392,7 @@
             // draw_count
             // 
             this.draw_count.AutoSize = true;
-            this.draw_count.Location = new System.Drawing.Point(501, 272);
+            this.draw_count.Location = new System.Drawing.Point(499, 261);
             this.draw_count.Name = "draw_count";
             this.draw_count.Size = new System.Drawing.Size(17, 20);
             this.draw_count.TabIndex = 24;
@@ -401,7 +401,7 @@
             // o_win_count
             // 
             this.o_win_count.AutoSize = true;
-            this.o_win_count.Location = new System.Drawing.Point(500, 384);
+            this.o_win_count.Location = new System.Drawing.Point(498, 373);
             this.o_win_count.Name = "o_win_count";
             this.o_win_count.Size = new System.Drawing.Size(17, 20);
             this.o_win_count.TabIndex = 25;
@@ -409,7 +409,7 @@
             // 
             // p1
             // 
-            this.p1.Location = new System.Drawing.Point(452, 126);
+            this.p1.Location = new System.Drawing.Point(450, 115);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(120, 26);
             this.p1.TabIndex = 26;
@@ -418,7 +418,7 @@
             // 
             // p2
             // 
-            this.p2.Location = new System.Drawing.Point(451, 325);
+            this.p2.Location = new System.Drawing.Point(449, 314);
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(120, 26);
             this.p2.TabIndex = 27;
