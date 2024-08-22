@@ -132,7 +132,7 @@
             // 
             this.b3.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b3.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b3.Location = new System.Drawing.Point(290, 118);
+            this.b3.Location = new System.Drawing.Point(290, 148);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(120, 117);
             this.b3.TabIndex = 1;
@@ -145,7 +145,7 @@
             // 
             this.b2.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b2.Location = new System.Drawing.Point(164, 118);
+            this.b2.Location = new System.Drawing.Point(164, 148);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(120, 117);
             this.b2.TabIndex = 2;
@@ -158,7 +158,7 @@
             // 
             this.b1.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b1.Location = new System.Drawing.Point(38, 118);
+            this.b1.Location = new System.Drawing.Point(38, 148);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(120, 117);
             this.b1.TabIndex = 3;
@@ -171,7 +171,7 @@
             // 
             this.b6.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b6.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b6.Location = new System.Drawing.Point(290, 241);
+            this.b6.Location = new System.Drawing.Point(290, 271);
             this.b6.Name = "b6";
             this.b6.Size = new System.Drawing.Size(120, 117);
             this.b6.TabIndex = 6;
@@ -184,7 +184,7 @@
             // 
             this.b5.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b5.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b5.Location = new System.Drawing.Point(164, 241);
+            this.b5.Location = new System.Drawing.Point(164, 271);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(120, 117);
             this.b5.TabIndex = 5;
@@ -197,7 +197,7 @@
             // 
             this.b4.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b4.Location = new System.Drawing.Point(38, 241);
+            this.b4.Location = new System.Drawing.Point(38, 271);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(120, 117);
             this.b4.TabIndex = 4;
@@ -210,7 +210,7 @@
             // 
             this.b9.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b9.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b9.Location = new System.Drawing.Point(290, 364);
+            this.b9.Location = new System.Drawing.Point(290, 394);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(120, 117);
             this.b9.TabIndex = 9;
@@ -223,7 +223,7 @@
             // 
             this.b8.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b8.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b8.Location = new System.Drawing.Point(164, 364);
+            this.b8.Location = new System.Drawing.Point(164, 394);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(120, 117);
             this.b8.TabIndex = 8;
@@ -236,7 +236,7 @@
             // 
             this.b7.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b7.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b7.Location = new System.Drawing.Point(38, 364);
+            this.b7.Location = new System.Drawing.Point(38, 394);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(120, 117);
             this.b7.TabIndex = 7;
@@ -249,7 +249,7 @@
             // 
             this.b18.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b18.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b18.Location = new System.Drawing.Point(921, 364);
+            this.b18.Location = new System.Drawing.Point(921, 394);
             this.b18.Name = "b18";
             this.b18.Size = new System.Drawing.Size(120, 117);
             this.b18.TabIndex = 19;
@@ -262,7 +262,7 @@
             // 
             this.b17.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b17.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b17.Location = new System.Drawing.Point(795, 364);
+            this.b17.Location = new System.Drawing.Point(795, 394);
             this.b17.Name = "b17";
             this.b17.Size = new System.Drawing.Size(120, 117);
             this.b17.TabIndex = 18;
@@ -275,7 +275,7 @@
             // 
             this.b16.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b16.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b16.Location = new System.Drawing.Point(669, 364);
+            this.b16.Location = new System.Drawing.Point(669, 394);
             this.b16.Name = "b16";
             this.b16.Size = new System.Drawing.Size(120, 117);
             this.b16.TabIndex = 17;
@@ -288,7 +288,7 @@
             // 
             this.b15.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b15.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b15.Location = new System.Drawing.Point(921, 241);
+            this.b15.Location = new System.Drawing.Point(921, 271);
             this.b15.Name = "b15";
             this.b15.Size = new System.Drawing.Size(120, 117);
             this.b15.TabIndex = 16;
@@ -301,7 +301,7 @@
             // 
             this.b14.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b14.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b14.Location = new System.Drawing.Point(795, 241);
+            this.b14.Location = new System.Drawing.Point(795, 271);
             this.b14.Name = "b14";
             this.b14.Size = new System.Drawing.Size(120, 117);
             this.b14.TabIndex = 15;
@@ -314,7 +314,7 @@
             // 
             this.b13.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b13.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b13.Location = new System.Drawing.Point(669, 241);
+            this.b13.Location = new System.Drawing.Point(669, 271);
             this.b13.Name = "b13";
             this.b13.Size = new System.Drawing.Size(120, 117);
             this.b13.TabIndex = 14;
@@ -327,7 +327,7 @@
             // 
             this.b10.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b10.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b10.Location = new System.Drawing.Point(669, 118);
+            this.b10.Location = new System.Drawing.Point(669, 148);
             this.b10.Name = "b10";
             this.b10.Size = new System.Drawing.Size(120, 117);
             this.b10.TabIndex = 13;
@@ -340,7 +340,7 @@
             // 
             this.b11.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b11.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b11.Location = new System.Drawing.Point(795, 118);
+            this.b11.Location = new System.Drawing.Point(795, 148);
             this.b11.Name = "b11";
             this.b11.Size = new System.Drawing.Size(120, 117);
             this.b11.TabIndex = 12;
@@ -353,7 +353,7 @@
             // 
             this.b12.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b12.ForeColor = System.Drawing.Color.DarkBlue;
-            this.b12.Location = new System.Drawing.Point(921, 118);
+            this.b12.Location = new System.Drawing.Point(921, 148);
             this.b12.Name = "b12";
             this.b12.Size = new System.Drawing.Size(120, 117);
             this.b12.TabIndex = 11;
@@ -367,7 +367,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(440, 193);
+            this.label2.Location = new System.Drawing.Point(440, 215);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 35);
             this.label2.TabIndex = 20;
@@ -390,7 +390,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label4.Location = new System.Drawing.Point(440, 334);
+            this.label4.Location = new System.Drawing.Point(440, 344);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(159, 35);
             this.label4.TabIndex = 22;
@@ -402,7 +402,7 @@
             this.x_win_count.AutoSize = true;
             this.x_win_count.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.x_win_count.ForeColor = System.Drawing.Color.DarkBlue;
-            this.x_win_count.Location = new System.Drawing.Point(618, 193);
+            this.x_win_count.Location = new System.Drawing.Point(618, 215);
             this.x_win_count.Name = "x_win_count";
             this.x_win_count.Size = new System.Drawing.Size(30, 35);
             this.x_win_count.TabIndex = 23;
@@ -425,7 +425,7 @@
             this.o_win_count.AutoSize = true;
             this.o_win_count.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.o_win_count.ForeColor = System.Drawing.Color.DarkBlue;
-            this.o_win_count.Location = new System.Drawing.Point(618, 334);
+            this.o_win_count.Location = new System.Drawing.Point(618, 344);
             this.o_win_count.Name = "o_win_count";
             this.o_win_count.Size = new System.Drawing.Size(30, 35);
             this.o_win_count.TabIndex = 25;
@@ -436,7 +436,7 @@
             this.p1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.p1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.p1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.p1.Location = new System.Drawing.Point(462, 140);
+            this.p1.Location = new System.Drawing.Point(462, 162);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(157, 30);
             this.p1.TabIndex = 26;
@@ -449,7 +449,7 @@
             this.p2.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.p2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.p2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.p2.Location = new System.Drawing.Point(462, 280);
+            this.p2.Location = new System.Drawing.Point(462, 290);
             this.p2.Name = "p2";
             this.p2.Size = new System.Drawing.Size(157, 30);
             this.p2.TabIndex = 27;
@@ -462,7 +462,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(239, 40);
+            this.pictureBox2.Location = new System.Drawing.Point(239, 47);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(604, 71);
             this.pictureBox2.TabIndex = 29;
