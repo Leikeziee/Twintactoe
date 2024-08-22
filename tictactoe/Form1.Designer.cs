@@ -130,7 +130,7 @@
             // 
             // b3
             // 
-            this.b3.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b3.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b3.ForeColor = System.Drawing.Color.DarkBlue;
             this.b3.Location = new System.Drawing.Point(290, 118);
             this.b3.Name = "b3";
@@ -143,7 +143,7 @@
             // 
             // b2
             // 
-            this.b2.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b2.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b2.ForeColor = System.Drawing.Color.DarkBlue;
             this.b2.Location = new System.Drawing.Point(164, 118);
             this.b2.Name = "b2";
@@ -156,7 +156,7 @@
             // 
             // b1
             // 
-            this.b1.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b1.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b1.ForeColor = System.Drawing.Color.DarkBlue;
             this.b1.Location = new System.Drawing.Point(38, 118);
             this.b1.Name = "b1";
@@ -169,7 +169,7 @@
             // 
             // b6
             // 
-            this.b6.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b6.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b6.ForeColor = System.Drawing.Color.DarkBlue;
             this.b6.Location = new System.Drawing.Point(290, 241);
             this.b6.Name = "b6";
@@ -182,7 +182,7 @@
             // 
             // b5
             // 
-            this.b5.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b5.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b5.ForeColor = System.Drawing.Color.DarkBlue;
             this.b5.Location = new System.Drawing.Point(164, 241);
             this.b5.Name = "b5";
@@ -195,7 +195,7 @@
             // 
             // b4
             // 
-            this.b4.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b4.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b4.ForeColor = System.Drawing.Color.DarkBlue;
             this.b4.Location = new System.Drawing.Point(38, 241);
             this.b4.Name = "b4";
@@ -208,7 +208,7 @@
             // 
             // b9
             // 
-            this.b9.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b9.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b9.ForeColor = System.Drawing.Color.DarkBlue;
             this.b9.Location = new System.Drawing.Point(290, 364);
             this.b9.Name = "b9";
@@ -221,7 +221,7 @@
             // 
             // b8
             // 
-            this.b8.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b8.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b8.ForeColor = System.Drawing.Color.DarkBlue;
             this.b8.Location = new System.Drawing.Point(164, 364);
             this.b8.Name = "b8";
@@ -234,7 +234,7 @@
             // 
             // b7
             // 
-            this.b7.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b7.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b7.ForeColor = System.Drawing.Color.DarkBlue;
             this.b7.Location = new System.Drawing.Point(38, 364);
             this.b7.Name = "b7";
@@ -247,7 +247,7 @@
             // 
             // b18
             // 
-            this.b18.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b18.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b18.ForeColor = System.Drawing.Color.DarkBlue;
             this.b18.Location = new System.Drawing.Point(921, 364);
             this.b18.Name = "b18";
@@ -260,7 +260,7 @@
             // 
             // b17
             // 
-            this.b17.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b17.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b17.ForeColor = System.Drawing.Color.DarkBlue;
             this.b17.Location = new System.Drawing.Point(795, 364);
             this.b17.Name = "b17";
@@ -273,7 +273,7 @@
             // 
             // b16
             // 
-            this.b16.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b16.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b16.ForeColor = System.Drawing.Color.DarkBlue;
             this.b16.Location = new System.Drawing.Point(669, 364);
             this.b16.Name = "b16";
@@ -286,7 +286,7 @@
             // 
             // b15
             // 
-            this.b15.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b15.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b15.ForeColor = System.Drawing.Color.DarkBlue;
             this.b15.Location = new System.Drawing.Point(921, 241);
             this.b15.Name = "b15";
@@ -299,7 +299,7 @@
             // 
             // b14
             // 
-            this.b14.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b14.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b14.ForeColor = System.Drawing.Color.DarkBlue;
             this.b14.Location = new System.Drawing.Point(795, 241);
             this.b14.Name = "b14";
@@ -312,7 +312,7 @@
             // 
             // b13
             // 
-            this.b13.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b13.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b13.ForeColor = System.Drawing.Color.DarkBlue;
             this.b13.Location = new System.Drawing.Point(669, 241);
             this.b13.Name = "b13";
@@ -325,7 +325,7 @@
             // 
             // b10
             // 
-            this.b10.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b10.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b10.ForeColor = System.Drawing.Color.DarkBlue;
             this.b10.Location = new System.Drawing.Point(669, 118);
             this.b10.Name = "b10";
@@ -338,7 +338,7 @@
             // 
             // b11
             // 
-            this.b11.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b11.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b11.ForeColor = System.Drawing.Color.DarkBlue;
             this.b11.Location = new System.Drawing.Point(795, 118);
             this.b11.Name = "b11";
@@ -351,7 +351,7 @@
             // 
             // b12
             // 
-            this.b12.Font = new System.Drawing.Font("Rebellion Squad", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b12.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.b12.ForeColor = System.Drawing.Color.DarkBlue;
             this.b12.Location = new System.Drawing.Point(921, 118);
             this.b12.Name = "b12";
@@ -365,11 +365,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Mighty Souly", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
             this.label2.Location = new System.Drawing.Point(440, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 34);
+            this.label2.Size = new System.Drawing.Size(158, 35);
             this.label2.TabIndex = 20;
             this.label2.Text = "X Win Count:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -377,22 +377,22 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Mighty Souly", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.DarkBlue;
             this.label3.Location = new System.Drawing.Point(442, 434);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 34);
+            this.label3.Size = new System.Drawing.Size(153, 35);
             this.label3.TabIndex = 21;
             this.label3.Text = "Draw Count:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Mighty Souly", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DarkBlue;
             this.label4.Location = new System.Drawing.Point(440, 334);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 34);
+            this.label4.Size = new System.Drawing.Size(159, 35);
             this.label4.TabIndex = 22;
             this.label4.Text = "O Win Count:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -400,11 +400,11 @@
             // x_win_count
             // 
             this.x_win_count.AutoSize = true;
-            this.x_win_count.Font = new System.Drawing.Font("Mighty Souly", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.x_win_count.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.x_win_count.ForeColor = System.Drawing.Color.DarkBlue;
             this.x_win_count.Location = new System.Drawing.Point(618, 193);
             this.x_win_count.Name = "x_win_count";
-            this.x_win_count.Size = new System.Drawing.Size(28, 34);
+            this.x_win_count.Size = new System.Drawing.Size(30, 35);
             this.x_win_count.TabIndex = 23;
             this.x_win_count.Text = "0";
             this.x_win_count.Click += new System.EventHandler(this.x_win_count_Click);
@@ -412,33 +412,33 @@
             // draw_count
             // 
             this.draw_count.AutoSize = true;
-            this.draw_count.Font = new System.Drawing.Font("Mighty Souly", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.draw_count.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.draw_count.ForeColor = System.Drawing.Color.DarkBlue;
             this.draw_count.Location = new System.Drawing.Point(618, 434);
             this.draw_count.Name = "draw_count";
-            this.draw_count.Size = new System.Drawing.Size(28, 34);
+            this.draw_count.Size = new System.Drawing.Size(30, 35);
             this.draw_count.TabIndex = 24;
             this.draw_count.Text = "0";
             // 
             // o_win_count
             // 
             this.o_win_count.AutoSize = true;
-            this.o_win_count.Font = new System.Drawing.Font("Mighty Souly", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.o_win_count.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.o_win_count.ForeColor = System.Drawing.Color.DarkBlue;
             this.o_win_count.Location = new System.Drawing.Point(618, 334);
             this.o_win_count.Name = "o_win_count";
-            this.o_win_count.Size = new System.Drawing.Size(28, 34);
+            this.o_win_count.Size = new System.Drawing.Size(30, 35);
             this.o_win_count.TabIndex = 25;
             this.o_win_count.Text = "0";
             // 
             // p1
             // 
             this.p1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.p1.Font = new System.Drawing.Font("Mighty Souly", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.p1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.p1.ForeColor = System.Drawing.Color.DarkBlue;
             this.p1.Location = new System.Drawing.Point(462, 140);
             this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(157, 32);
+            this.p1.Size = new System.Drawing.Size(157, 30);
             this.p1.TabIndex = 26;
             this.p1.Text = "Player X";
             this.p1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -447,11 +447,11 @@
             // p2
             // 
             this.p2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.p2.Font = new System.Drawing.Font("Mighty Souly", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.p2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.p2.ForeColor = System.Drawing.Color.DarkBlue;
             this.p2.Location = new System.Drawing.Point(462, 280);
             this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(157, 32);
+            this.p2.Size = new System.Drawing.Size(157, 30);
             this.p2.TabIndex = 27;
             this.p2.Text = "Player O";
             this.p2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
