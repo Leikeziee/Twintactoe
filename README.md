@@ -1,7 +1,7 @@
 #TwinTacToe || Lactao, Edneil P. & Muldera, Ezekiel John O. || Software Design Lab Quiz 1
 
 A. Game overview:
-Twin-tac-toe is an innovative twist on the classic Tic Tac Toe game, introducing dual 3x3 grids to intensify the gameplay experience. Players take turns placing their respective symbols (X and O) on either of the two grids, aiming to align three of their symbols horizontally, vertically, or diagonally on one of the grids to secure a win. The game features real-time score tracking across multiple rounds, allowing for extended competitive play.
+Twin-tac-toe is an innovative twist on the classic Tic Tac Toe game, introducing dual 3x3 grids to intensify the gameplay experience. Players take turns placing their respective symbols (X and O) on either of the two grids, aiming to align three of their symbols horizontally, vertically, or diagonally on one of the grids to secure a win. The game features real-time score tracking across multiple rounds, allowing for extended competitive play. A player can also go against a computer by simply setting the name for Player 2 as "COMPUTER."
 
 B. Setup instructions:
    i. Ensure you have a code editor like Visual Studio installed to run the code
